@@ -63,6 +63,17 @@
                 </a>
             </li>
 
+
+            <li class="nav-item">
+                <a href="{{route('backend.media')}}" class="nav-link">
+                    <i class="nav-icon fa fa-file-movie-o"></i>
+                    <p>
+                        Media
+{{--                        <span class="right badge badge-danger">New</span>--}}
+                    </p>
+                </a>
+            </li>
+
             <hr>
             <hr>
             <hr>

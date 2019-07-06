@@ -28,4 +28,9 @@ Route::group(['middleware'=>'auth','namespace'=>'Backend','prefix'=>'backend','a
    Route::post('update_user_data_1','ProfileController@updateUser1')->name('update_user_data_1');
    Route::post('update_user_data_2','ProfileController@updateUser2')->name('update_user_data_2');
    Route::post('update_user_picture','ProfileController@updateUserPicture')->name('update_user_picture');
+
+   //media
+    Route::get('media','MediaController')->name('media');
+    Route::post('save_new_media','MediaController@saveNewMedia')->name('save_new_media');
+    Route::get('delete_media/{media}','MediaController@deleteMedia')->name('delete_media');
 });

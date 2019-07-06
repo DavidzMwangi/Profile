@@ -25,6 +25,10 @@
 
     <!-- Main content -->
     <section class="content">
+        @php
+            $user=\Illuminate\Support\Facades\Auth::user();
+
+        @endphp
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
@@ -34,11 +38,11 @@
                         <div class="card-body box-profile">
                             <div class="text-center">
                                 <img class="profile-user-img img-fluid img-circle"
-                                     src="../../dist/img/user4-128x128.jpg"
+                                     src="{{asset('uploads/profile/'. $user->picture)}}"
                                      alt="User profile picture">
                             </div>
 
-                            <h3 class="profile-username text-center">Nina Mcintire</h3>
+                            <h3 class="profile-username text-center">{{$user->name}}</h3>
 
                             <p class="text-muted text-center">Software Engineer</p>
 
@@ -114,10 +118,7 @@
                         <div class="card-body">
                             <div class="tab-content">
 
-                                @php
-                                $user=\Illuminate\Support\Facades\Auth::user();
 
-                                @endphp
                                 <div class="active tab-pane" id="activity">
                                     <form class="form-horizontal" method="post" action="{{route('backend.update_user_data_1')}}">
                                         {{csrf_field()}}

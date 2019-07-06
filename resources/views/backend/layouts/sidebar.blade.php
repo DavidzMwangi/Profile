@@ -55,13 +55,17 @@
             </li>
             <li class="nav-item">
                 <a href="{{route('backend.profile')}}" class="nav-link">
-                    <i class="nav-icon fa fa-th"></i>
+                    <i class="nav-icon fa fa-user"></i>
                     <p>
                         Profile
-                        <span class="right badge badge-danger">New</span>
+{{--                        <span class="right badge badge-danger">New</span>--}}
                     </p>
                 </a>
             </li>
+
+            <hr>
+            <hr>
+            <hr>
             <li class="nav-item has-treeview">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fa fa-pie-chart"></i>

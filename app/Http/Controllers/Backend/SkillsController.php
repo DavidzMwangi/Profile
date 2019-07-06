@@ -2,29 +2,30 @@
 
 namespace App\Http\Controllers\Backend;
 
-use App\Models\Media;
-use Exception;
+use App\Models\Skill;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Input;
 use Intervention\Image\Facades\Image;
 
-class MediaController extends Controller
+class SkillsController extends Controller
 {
     public function __invoke()
     {
-        return view('backend.media')->withMedias(Media::all());
+        return view('backend.skills')->withSkills(Skill::all());
     }
 
-    public function saveNewMedia(Request $request)
+    public function saveNewSkill(Request $request)
     {
-        $media=new Media();
-        $media->name=$request->name;
-        $media->description=$request->description;
-        $media->link=$request->link;
 
 
+        $skill=new Skill();
+        $skill->name=$request->name;
+        $skill->description=$request->description;
+        $skill->level=$request->level;
+        $skill->experience_yrs=$request->experience_yrs;
+        $skill->start_date=$request->start_date;
 
         if($request->hasFile('user_pic')) {
             if (!$request->file('user_pic')->isValid()) {
@@ -37,8 +38,8 @@ class MediaController extends Controller
                 if(!File::exists($path)) {File::makeDirectory($path, $mode = 0777, true, true);}
                 Image::make($image->getRealPath())->fit(500,500)->save($path . $filename);
 
-                $media->picture=$filename;
-                $media->Save();
+                $skill->picture=$filename;
+                $skill->Save();
                 return redirect()->back();
             }
         }else{
@@ -46,9 +47,10 @@ class MediaController extends Controller
         }
     }
 
-    public function deleteMedia(Media $media)
+    public function deleteSkill(Skill $skill)
     {
-        $media->delete();
+        $skill->delete();
+
 
         return redirect()->back();
     }

@@ -69,7 +69,16 @@
                     <i class="nav-icon fa fa-file-movie-o"></i>
                     <p>
                         Media
-{{--                        <span class="right badge badge-danger">New</span>--}}
+                    </p>
+                </a>
+            </li>
+
+
+            <li class="nav-item">
+                <a href="{{route('backend.skills')}}" class="nav-link">
+                    <i class="nav-icon fa fa-header"></i>
+                    <p>
+                        Skills
                     </p>
                 </a>
             </li>

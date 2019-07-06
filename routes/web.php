@@ -33,4 +33,9 @@ Route::group(['middleware'=>'auth','namespace'=>'Backend','prefix'=>'backend','a
     Route::get('media','MediaController')->name('media');
     Route::post('save_new_media','MediaController@saveNewMedia')->name('save_new_media');
     Route::get('delete_media/{media}','MediaController@deleteMedia')->name('delete_media');
+
+    //skills
+    Route::get('skills','SkillsController')->name('skills');
+    Route::post('save_new_skill','SkillsController@saveNewSkill')->name('save_new_skill');
+    Route::get('delete_skill/{skill}','SkillsController@deleteSkill')->name('delete_skill');
 });

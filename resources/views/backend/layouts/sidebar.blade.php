@@ -54,10 +54,10 @@
                 </ul>
             </li>
             <li class="nav-item">
-                <a href="../widgets.html" class="nav-link">
+                <a href="{{route('backend.profile')}}" class="nav-link">
                     <i class="nav-icon fa fa-th"></i>
                     <p>
-                        Widgets
+                        Profile
                         <span class="right badge badge-danger">New</span>
                     </p>
                 </a>

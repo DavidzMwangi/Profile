@@ -17,7 +17,7 @@ class UpdateUsersTable extends Migration
             $table->string('phone');
             $table->string('phone_2');
             $table->string('email_2');
-            $table->text('picture');
+            $table->string('picture')->default('user.jpg');
             $table->text('profile_description');
             $table->integer('completed_works');
             $table->integer('completed_years');

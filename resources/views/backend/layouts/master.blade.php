@@ -35,6 +35,17 @@
             <li class="nav-item d-none d-sm-inline-block">
                 <a href="#" class="nav-link">Contact</a>
             </li>
+            <li class="nav-item d-none d-sm-inline-block">
+                <a class="btn btn-primary" href="{{ route('logout') }}"
+                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                    {{ __('Logout') }}
+                </a>
+
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </li>
         </ul>
 
         <!-- SEARCH FORM -->
@@ -164,7 +175,7 @@
         <div class="float-right d-none d-sm-block">
             <b>Version</b> 3.0.0-alpha
         </div>
-        <strong>Copyright &copy; 2014-2018 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+        <strong>Copyright &copy; {{date('Y')}} <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
         reserved.
     </footer>
 

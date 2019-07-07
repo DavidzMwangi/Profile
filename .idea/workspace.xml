@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af0331d5-85a5-41f8-9521-a2a665bcb313" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/backend/skills.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Backend/MediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Backend/MediaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/backend/education.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -36,34 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/backend/profile.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="268" selection-start-line="268" selection-end-line="269" selection-end-column="86" />
-              <folding>
-                <element signature="e#860#4262#0#HTML" />
-                <element signature="e#5357#8375#0#HTML" />
-                <element signature="e#19093#22633#0#HTML" />
-                <element signature="e#11089#13634#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/SkillsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="290">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
               <folding>
                 <element signature="e#48#69#0#PHP" expanded="true" />
               </folding>
@@ -72,25 +48,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/backend/skills.blade.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="65" column="78" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="78" />
+            <state relative-caret-position="428">
+              <caret line="43" column="74" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/education.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="86" column="65" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/EducationController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
-                <element signature="e#3640#3860#0#HTML" />
-                <element signature="e#3890#4130#0#HTML" />
-                <element signature="e#4160#4374#0#HTML" />
-                <element signature="e#5023#5253#0#HTML" />
+                <element signature="e#48#73#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_133203_create_skills_table.php">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_133729_create_education_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="242">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="20" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -98,11 +89,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/ProfileController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="1035">
               <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="e#48#62#0#PHP" expanded="true" />
-                <element signature="e#560#1562#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -111,11 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="382">
+              <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -123,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_132935_create_media_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="345">
               <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
@@ -132,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/MediaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="644">
               <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="e#48#69#0#PHP" expanded="true" />
@@ -144,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/backend/media.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="26" column="3" selection-end-line="168" selection-end-column="15" />
+            <state relative-caret-position="211">
+              <caret line="28" column="11" lean-forward="true" selection-end-line="168" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -181,11 +168,13 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/ProfileController.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/profile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/media.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/MediaController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/SkillsController.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/skills.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/SkillsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/education.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Backend/EducationController.php" />
       </list>
     </option>
   </component>
@@ -455,18 +444,19 @@
       <workItem from="1562245718897" duration="1227000" />
       <workItem from="1562247189486" duration="267000" />
       <workItem from="1562248097174" duration="2369000" />
-      <workItem from="1562332600650" duration="21813000" />
+      <workItem from="1562332600650" duration="22600000" />
+      <workItem from="1562512940904" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27040000" />
+    <option name="totallyTimeSpent" value="29133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -512,13 +502,6 @@
           <folding>
             <element signature="e#33#71#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_133729_create_education_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -609,64 +592,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_132935_create_media_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="20" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backend/profile.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
+        <state relative-caret-position="6164">
           <caret line="268" selection-start-line="268" selection-end-line="269" selection-end-column="86" />
-          <folding>
-            <element signature="e#860#4262#0#HTML" />
-            <element signature="e#5357#8375#0#HTML" />
-            <element signature="e#19093#22633#0#HTML" />
-            <element signature="e#11089#13634#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/media.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/skills.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="26" column="3" selection-end-line="168" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="1495">
+          <caret line="65" column="78" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_133203_create_skills_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="345">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/ProfileController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="1035">
           <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="e#48#62#0#PHP" expanded="true" />
-            <element signature="e#560#1562#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_132935_create_media_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/MediaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="644">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="45" selection-end-column="9" />
           <folding>
             <element signature="e#48#69#0#PHP" expanded="true" />
@@ -676,31 +642,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/SkillsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="290">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
           <folding>
             <element signature="e#48#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/skills.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/media.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="65" column="78" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="78" />
-          <folding>
-            <element signature="e#3640#3860#0#HTML" />
-            <element signature="e#3890#4130#0#HTML" />
-            <element signature="e#4160#4374#0#HTML" />
-            <element signature="e#5023#5253#0#HTML" />
-          </folding>
+        <state relative-caret-position="211">
+          <caret line="28" column="11" lean-forward="true" selection-end-line="168" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_05_133729_create_education_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/layouts/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/education.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="86" column="65" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state relative-caret-position="428">
+          <caret line="43" column="74" selection-start-line="43" selection-start-column="58" selection-end-line="43" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Backend/EducationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="e#48#73#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

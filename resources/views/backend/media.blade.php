@@ -166,4 +166,9 @@
 
     <script src="{{asset('plugins/holder-master/holder.js')}}" type="text/javascript"></script>
     <script src="{{asset('plugins/jasny-bootstrap/js/jasny-bootstrap.js')}}"></script>
+    <script>
+
+
+        $('#example1').DataTable();
+    </script>
     @endsection

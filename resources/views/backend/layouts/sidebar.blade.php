@@ -83,6 +83,16 @@
                 </a>
             </li>
 
+
+            <li class="nav-item">
+                <a href="{{route('backend.education')}}" class="nav-link">
+                    <i class="nav-icon fa fa-header"></i>
+                    <p>
+                        Education
+                    </p>
+                </a>
+            </li>
+
             <hr>
             <hr>
             <hr>

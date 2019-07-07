@@ -38,4 +38,9 @@ Route::group(['middleware'=>'auth','namespace'=>'Backend','prefix'=>'backend','a
     Route::get('skills','SkillsController')->name('skills');
     Route::post('save_new_skill','SkillsController@saveNewSkill')->name('save_new_skill');
     Route::get('delete_skill/{skill}','SkillsController@deleteSkill')->name('delete_skill');
+
+    //education
+    Route::get('education','EducationController')->name('education');
+    Route::post('save_new_education','EducationController@saveNewEducation')->name('save_new_education');
+    Route::get('delete_education/{education}','EducationController@deleteEducation')->name('delete_education');
 });

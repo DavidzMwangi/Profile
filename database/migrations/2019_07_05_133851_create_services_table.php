@@ -17,7 +17,7 @@ class CreateServicesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->text('description');
-            $table->text('icon');
+            $table->string('icon')->default('user.jpg');
             $table->timestamps();
         });
     }

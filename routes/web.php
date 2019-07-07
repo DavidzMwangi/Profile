@@ -43,4 +43,9 @@ Route::group(['middleware'=>'auth','namespace'=>'Backend','prefix'=>'backend','a
     Route::get('education','EducationController')->name('education');
     Route::post('save_new_education','EducationController@saveNewEducation')->name('save_new_education');
     Route::get('delete_education/{education}','EducationController@deleteEducation')->name('delete_education');
+
+    //service
+    Route::get('service','ServiceController')->name('service');
+    Route::post('save_new_service','ServiceController@saveNewService')->name('save_new_service');
+    Route::get('delete_service/{service}','ServiceController@deleteService')->name('delete_service');
 });

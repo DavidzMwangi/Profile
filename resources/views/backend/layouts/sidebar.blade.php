@@ -93,6 +93,17 @@
                 </a>
             </li>
 
+
+
+            <li class="nav-item">
+                <a href="{{route('backend.service')}}" class="nav-link">
+                    <i class="nav-icon fa fa-header"></i>
+                    <p>
+                        Service
+                    </p>
+                </a>
+            </li>
+
             <hr>
             <hr>
             <hr>

@@ -14,7 +14,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend/index');
 });
 
 Auth::routes();
@@ -55,4 +55,7 @@ Route::group(['middleware'=>'auth','namespace'=>'Backend','prefix'=>'backend','a
     Route::get('project','ProjectController')->name('project');
     Route::post('save_new_project','ProjectController@saveNewProject')->name('save_new_project');
     Route::get('delete_project/{project}','ProjectController@deleteProject')->name('delete_project');
+
+
 });
+

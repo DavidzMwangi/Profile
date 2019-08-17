@@ -104,6 +104,17 @@
                 </a>
             </li>
 
+
+
+            <li class="nav-item">
+                <a href="{{route('backend.project')}}" class="nav-link">
+                    <i class="nav-icon fa fa-header"></i>
+                    <p>
+                        Project
+                    </p>
+                </a>
+            </li>
+
             <hr>
             <hr>
             <hr>

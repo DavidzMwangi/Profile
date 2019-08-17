@@ -26,6 +26,8 @@ class CreateProjectsTable extends Migration
             $table->string('language');
             $table->string('category');
             $table->timestamps();
+
+            $table->foreign('skill_id')->references('id')->on('skills')->onDelete('cascade');
         });
     }
 

@@ -71,14 +71,14 @@
 <!--/ Nav End /-->
 
 <!--/ Intro Skew Star /-->
-<div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+<div id="home" class="intro route bg-image" style="background-image: url({{asset('uploads/david.jpg')}})">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
         <div class="table-cell">
             <div class="container">
                 <!--<p class="display-6 color-d">Hello, world!</p>-->
-                <h1 class="intro-title mb-4">I am Morgan Freeman</h1>
-                <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+                <h1 class="intro-title mb-4">I am {{$user->name}}</h1>
+                <p class="intro-subtitle"><span class="text-slider-items">Android Developer,Full Stack Web  Developer,Web Designer,Frontend Developer</span><strong class="text-slider"></strong></p>
                 <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
             </div>
         </div>
@@ -96,15 +96,15 @@
                             <div class="row">
                                 <div class="col-sm-6 col-md-5">
                                     <div class="about-img">
-                                        <img src="img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                                        <img src="{{asset('uploads/profile/'.$user->picture)}}" class="img-fluid rounded b-shadow-a" alt="">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-7">
                                     <div class="about-info">
-                                        <p><span class="title-s">Name: </span> <span>Morgan Freeman</span></p>
-                                        <p><span class="title-s">Profile: </span> <span>full stack developer</span></p>
-                                        <p><span class="title-s">Email: </span> <span>contact@example.com</span></p>
-                                        <p><span class="title-s">Phone: </span> <span>(617) 557-0089</span></p>
+                                        <p><span class="title-s">Name: </span> <span>{{$user->name}}</span></p>
+                                        <p><span class="title-s">Profile: </span> <span>I am a Software Engineer</span></p>
+                                        <p><span class="title-s">Email: </span> <span>{{$user->email}}</span></p>
+                                        <p><span class="title-s">Phone: </span> <span>{{$user->phone}}</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -140,21 +140,18 @@
                                     </h5>
                                 </div>
                                 <p class="lead">
-                                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                    imperdiet et, porttitor
-                                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                    porttitor accumsan tincidunt.
+                                    {{$user->profile_description}}
                                 </p>
-                                <p class="lead">
-                                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                    porttitor volutpat. Vestibulum
-                                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                                </p>
-                                <p class="lead">
-                                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                    Nulla porttitor accumsan
-                                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                </p>
+{{--                                <p class="lead">--}}
+{{--                                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis--}}
+{{--                                    porttitor volutpat. Vestibulum--}}
+{{--                                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.--}}
+{{--                                </p>--}}
+{{--                                <p class="lead">--}}
+{{--                                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.--}}
+{{--                                    Nulla porttitor accumsan--}}
+{{--                                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.--}}
+{{--                                </p>--}}
                             </div>
                         </div>
                     </div>

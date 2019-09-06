@@ -120,14 +120,31 @@
                                     <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                                          aria-valuemax="100"></div>
                                 </div>
-                                <span>PHP</span> <span class="pull-right">50%</span>
+                                <span>PHP</span> <span class="pull-right">80%</span>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0"
                                          aria-valuemax="100"></div>
                                 </div>
                                 <span>JAVASCRIPT</span> <span class="pull-right">90%</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                         aria-valuemax="100"></div>
+                                </div>
+                                <span>LARAVEL</span> <span class="pull-right">85%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                         aria-valuemax="100"></div>
+                                </div>
+                                <span>Android</span> <span class="pull-right">90%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                         aria-valuemax="100"></div>
+                                </div>
+                                <span>Java</span> <span class="pull-right">80%</span>
+
+                                <div class="progress">
+
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
                                          aria-valuemax="100"></div>
                                 </div>
                             </div>
@@ -142,19 +159,20 @@
                                 <p class="lead">
                                     {{$user->profile_description}}
                                 </p>
-{{--                                <p class="lead">--}}
-{{--                                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis--}}
-{{--                                    porttitor volutpat. Vestibulum--}}
-{{--                                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.--}}
-{{--                                </p>--}}
-{{--                                <p class="lead">--}}
-{{--                                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.--}}
-{{--                                    Nulla porttitor accumsan--}}
-{{--                                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.--}}
-{{--                                </p>--}}
+                                {{--                                <p class="lead">--}}
+                                {{--                                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis--}}
+                                {{--                                    porttitor volutpat. Vestibulum--}}
+                                {{--                                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.--}}
+                                {{--                                </p>--}}
+                                {{--                                <p class="lead">--}}
+                                {{--                                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.--}}
+                                {{--                                    Nulla porttitor accumsan--}}
+                                {{--                                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.--}}
+                                {{--                                </p>--}}
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

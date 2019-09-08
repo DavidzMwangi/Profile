@@ -189,103 +189,105 @@
                         Services
                     </h3>
                     <p class="subtitle-a">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                       These are the services that I can offer
                     </p>
                     <div class="line-mf"></div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="service-box">
-                    <div class="service-ico">
-                        <span class="ico-circle"><i class="ion-monitor"></i></span>
-                    </div>
-                    <div class="service-content">
-                        <h2 class="s-title">Web Design</h2>
-                        <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
-                        </p>
-                    </div>
-                </div>
-            </div>
+
+            @foreach($services as $service)
             <div class="col-md-4">
                 <div class="service-box">
                     <div class="service-ico">
                         <span class="ico-circle"><i class="ion-code-working"></i></span>
                     </div>
                     <div class="service-content">
-                        <h2 class="s-title">Web Development</h2>
+                        <h2 class="s-title">{{$service->name}}</h2>
                         <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
+                            {{$service->description}}
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="service-box">
-                    <div class="service-ico">
-                        <span class="ico-circle"><i class="ion-camera"></i></span>
-                    </div>
-                    <div class="service-content">
-                        <h2 class="s-title">Photography</h2>
-                        <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="service-box">
-                    <div class="service-ico">
-                        <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-                    </div>
-                    <div class="service-content">
-                        <h2 class="s-title">Responsive Design</h2>
-                        <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="service-box">
-                    <div class="service-ico">
-                        <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-                    </div>
-                    <div class="service-content">
-                        <h2 class="s-title">Graphic Design</h2>
-                        <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="service-box">
-                    <div class="service-ico">
-                        <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-                    </div>
-                    <div class="service-content">
-                        <h2 class="s-title">Marketing Services</h2>
-                        <p class="s-description text-center">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                            provident vitae! Magni
-                            tempora perferendis eum non provident.
-                        </p>
-                    </div>
-                </div>
-            </div>
+
+            @endforeach
+{{--            <div class="col-md-4">--}}
+{{--                <div class="service-box">--}}
+{{--                    <div class="service-ico">--}}
+{{--                        <span class="ico-circle"><i class="ion-code-working"></i></span>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-content">--}}
+{{--                        <h2 class="s-title">Web Development</h2>--}}
+{{--                        <p class="s-description text-center">--}}
+{{--                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,--}}
+{{--                            provident vitae! Magni--}}
+{{--                            tempora perferendis eum non provident.--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-4">--}}
+{{--                <div class="service-box">--}}
+{{--                    <div class="service-ico">--}}
+{{--                        <span class="ico-circle"><i class="ion-camera"></i></span>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-content">--}}
+{{--                        <h2 class="s-title">Photography</h2>--}}
+{{--                        <p class="s-description text-center">--}}
+{{--                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,--}}
+{{--                            provident vitae! Magni--}}
+{{--                            tempora perferendis eum non provident.--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-4">--}}
+{{--                <div class="service-box">--}}
+{{--                    <div class="service-ico">--}}
+{{--                        <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-content">--}}
+{{--                        <h2 class="s-title">Responsive Design</h2>--}}
+{{--                        <p class="s-description text-center">--}}
+{{--                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,--}}
+{{--                            provident vitae! Magni--}}
+{{--                            tempora perferendis eum non provident.--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-4">--}}
+{{--                <div class="service-box">--}}
+{{--                    <div class="service-ico">--}}
+{{--                        <span class="ico-circle"><i class="ion-paintbrush"></i></span>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-content">--}}
+{{--                        <h2 class="s-title">Graphic Design</h2>--}}
+{{--                        <p class="s-description text-center">--}}
+{{--                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,--}}
+{{--                            provident vitae! Magni--}}
+{{--                            tempora perferendis eum non provident.--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="col-md-4">--}}
+{{--                <div class="service-box">--}}
+{{--                    <div class="service-ico">--}}
+{{--                        <span class="ico-circle"><i class="ion-stats-bars"></i></span>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-content">--}}
+{{--                        <h2 class="s-title">Marketing Services</h2>--}}
+{{--                        <p class="s-description text-center">--}}
+{{--                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,--}}
+{{--                            provident vitae! Magni--}}
+{{--                            tempora perferendis eum non provident.--}}
+{{--                        </p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
         </div>
     </div>
 </section>
